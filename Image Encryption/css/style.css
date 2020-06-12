@@ -1,0 +1,48 @@
+#step1{
+    height: 250px;
+    width: 100%;
+    margin: auto;
+    background-color: steelblue;
+    color: white;
+}
+
+.button{
+    width:240px;
+    background-color: blue;
+	height:70px;
+	text-align:center;
+	text-decoration: none !important;
+	color:#fff !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius:1px;
+	display:block;
+	line-height:70px;
+	box-shadow:3px 3px 0 rgba(0,0,0,0.08);
+	cursor: pointer;
+	font-size:18px;
+	margin:10px auto;
+	opacity:0.9;
+}
+.button:hover{
+	background-color: indigo;
+}
+.aaa{
+    background-color: tomato;
+    padding: 40px 10px;
+    color:white;
+}
+#step3{
+    display: none;
+    height: 240px;
+    background-color: aquamarine;
+}
+.if-encrypt input{
+    height: 40px;
+    width: 30%;
+}
+#fileDisplayArea {
+    margin-top: 2em;
+    width: 100%;
+    overflow-x: auto;
+  }

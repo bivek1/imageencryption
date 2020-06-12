@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Encryption with AES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/aes.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-dark navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Image Encrption with JavaScripts-Encryption</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+        <div class="text-center aaa" id="step2">
+          <div>
+              Select an image file: 
+              <div oninput="dist()">
+                <input type="file" id="fileInput"/>
+              </div>
+          </div>
+        </div>
+        <div id="step3" class="step3">
+            <div class="content if-encrypt text-center">
+                <h1>Enter a public key</h1>
+                <h2>Please remember this password</h2>
+    
+                <input id="encrypt-pw" type="password"/>
+                <a class="button process red" onclick="passw()">Encrypt!</a>
+            </div>
+            </div>
+        </div>   
+</body>
+</html>
